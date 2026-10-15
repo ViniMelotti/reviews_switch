@@ -3,7 +3,7 @@
     "titulo": "Super Mario Odyssey",
     "status": "zerado",
     "horas": 36,
-    "imagem": "img/super-mario-odyssey.jpg",
+    "imagem": "img/super-mario-odyssey.jpeg",
     "imagemAlt": "Print do Super Mario Odyssey",
     "notas": { "jogabilidade": 8, "diversao": 9, "historia": 6 },
     "desempenho": { "status": "roda-bem", "obs": "Rodou liso no meu Switch Lite, em modo portátil. Não tive travamentos durante a minha experiência." },
@@ -12,7 +12,7 @@
   {
     "titulo": "Inside",
     "status": "jogando",
-    "imagem": "img/inside.jpg",
+    "imagem": "img/inside.jpeg",
     "imagemAlt": "Print de Inside",
     "notas": null,
     "desempenho": null,
