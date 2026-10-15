@@ -1,0 +1,21 @@
+[
+  {
+    "titulo": "Super Mario Odyssey",
+    "status": "zerado",
+    "horas": 36,
+    "imagem": "img/super-mario-odyssey.jpg",
+    "imagemAlt": "Print do Super Mario Odyssey",
+    "notas": { "jogabilidade": 8, "diversao": 9, "historia": 6 },
+    "desempenho": { "status": "roda-bem", "obs": "Rodou liso no meu Switch Lite, em modo portátil. Não tive travamentos durante a minha experiência." },
+    "review": "Super Mario Odyssey me divertiu bastante. É um jogo bem desenvolvido, com mecânicas variadas, embora a história siga a fórmula clássica da série. Levei cerca de 26 horas para terminar a história e joguei mais 10 horas no pós-jogo, somando aproximadamente 36 horas.\n\nGostei da jogabilidade e achei os controles simples de aprender, mas senti falta de mais possibilidades de comandos. Em alguns trechos, também gostaria que o jogo mostrasse na tela quais comandos usar. Por ser uma experiência que também atende ao público infantil, acredito que essas orientações poderiam aparecer com mais frequência durante a partida.\n\nA diversão foi o ponto alto para mim. Os chefes não são tão difíceis, o que combina com a proposta acessível do jogo. Ainda assim, senti falta de uma variedade maior de desafios.\n\nA história, por outro lado, não me surpreendeu. É a clássica jornada de Mario para salvar a Princesa Peach e enfrentar Bowser e seus capangas, incluindo os Broodals, o grupo de coelhos que aparece como chefe ao longo da aventura. Para mim, o enredo não trouxe grandes novidades.\n\nTambém senti falta de uma opção mais clara e direta para enfrentar os chefes novamente, especialmente o Bowser. Talvez seja possível batalhar com ele outra vez, mas não confirmei isso durante a minha experiência. Joguei cerca de 10 horas do pós-jogo, sem chegar ao fim dele.\n\nNo geral, achei uma experiência muito divertida e bem construída nas mecânicas. Para mim, vale a pena pela jogabilidade e pela diversão, mas não por apresentar algo novo na história clássica do Mario."
+  },
+  {
+    "titulo": "Inside",
+    "status": "jogando",
+    "imagem": "img/inside.jpg",
+    "imagemAlt": "Print de Inside",
+    "notas": null,
+    "desempenho": null,
+    "review": "Estou jogando Inside e ainda não terminei. Minhas notas e a avaliação final ainda não estão definidas."
+  }
+]

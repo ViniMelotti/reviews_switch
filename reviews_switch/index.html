@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#f1f2ee">
+    <meta name="description" content="Meu histórico de jogos de Nintendo Switch: reviews pessoais, notas e desempenho no Switch Lite em modo portátil.">
+    <title>Reviews de Switch</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,400;12..96,500;12..96,600;12..96,700;12..96,800&family=Newsreader:opsz,wght@6..72,400;6..72,500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./style.css">
+    <script src="./app.js" defer></script>
+  </head>
+  <body>
+    <a class="skip-link" href="#historico">Pular para as reviews</a>
+    <div class="page-shell">
+      <header class="site-header">
+        <div class="masthead" aria-label="Diário pessoal de jogos">
+          <span class="masthead-brand">
+            <svg class="console-icon" viewBox="0 0 40 24" fill="none" aria-hidden="true">
+              <rect x="1" y="1" width="38" height="22" rx="7" stroke="currentColor" stroke-width="2"/>
+              <rect x="11" y="5" width="18" height="14" rx="1.5" stroke="currentColor" stroke-width="2"/>
+              <path d="M6 9v6m-3-3h6" stroke="currentColor" stroke-width="1.5"/>
+              <circle cx="34" cy="9" r="1.3" fill="currentColor"/>
+              <circle cx="34" cy="15" r="1.3" fill="currentColor"/>
+            </svg>
+            Um diário de jogos
+          </span>
+          <a class="masthead-link" href="#historico">Meus jogos <span aria-hidden="true">↙</span></a>
+        </div>
+        <div class="newspaper-title">
+          <h1>Reviews de <span>Switch</span></h1>
+        </div>
+        <div class="edition-strip" aria-label="Sobre as avaliações">
+          <span>Arquivo pessoal de jogos</span>
+          <span>Jogabilidade · Diversão · História</span>
+          <span>Notas de 0 a 10</span>
+        </div>
+        <div class="introduction">
+          <div class="intro-grid">
+            <div class="intro-copy">
+              <p class="editorial-kicker">Apresentação</p>
+              <p class="subtitle">Os jogos que eu joguei e zerei, com nota e opinião sincera pra você decidir se compensa.</p>
+            </div>
+            <figure class="my-console">
+              <div class="console-photo-frame">
+                <img id="console-photo" src="./img/switch-lite-turquesa.jpg" width="1200" height="675" alt="Nintendo Switch Lite turquesa visto de frente" decoding="async" aria-hidden="true">
+                <span id="console-photo-fallback" role="img" aria-label="Foto do Nintendo Switch Lite turquesa indisponível">Nintendo Switch Lite · Turquesa</span>
+              </div>
+              <figcaption class="console-caption">
+                <span class="console-label">O console destas reviews</span>
+                <strong>Nintendo Switch Lite</strong>
+                <span class="console-mode">Turquesa · Modo portátil</span>
+                <a class="photo-credit" href="https://www.nintendo.com/pt-br/store/products/nintendo-switch-lite-turquoise/" target="_blank" rel="noopener noreferrer">Imagem de divulgação: Nintendo ↗</a>
+              </figcaption>
+            </figure>
+          </div>
+          <details class="about-disclosure">
+            <summary>Sobre este site <span class="about-toggle" aria-hidden="true"></span></summary>
+            <div class="about">
+            <p>Este é um site pessoal, feito por alguém que gosta de programação e de jogar jogos de diferentes gêneros. Recentemente adquiri um Switch Lite desbloqueado e quis aproveitar para conhecer vários jogos nele. Aqui reúno minhas análises e notas dos que joguei ou zerei, para ajudar quem está em dúvida se um título vale a pena. Escolhi o Lite por ser pequeno, portátil e atender ao que preciso, sem os recursos extras das outras versões. Como tenho um PS5 conectado à TV para jogar em tela grande, o dock também não faz falta.</p>
+            <p>Se algum jogo não estiver listado, é possível que eu o tenha jogado no PlayStation, que também uso. Obrigado pela compreensão.</p>
+            </div>
+          </details>
+        </div>
+      </header>
+
+      <main id="historico" tabindex="-1">
+        <div class="section-heading">
+          <div>
+            <h2>Meus jogos</h2>
+            <p class="collection-hint">Escolha um jogo para ver os detalhes.</p>
+          </div>
+          <dl class="game-totals" aria-label="Totais do histórico">
+            <div><dt id="played-label">Jogos jogados</dt><dd id="played-total">—</dd></div>
+            <div><dt id="completed-label">Jogos zerados</dt><dd id="completed-total">—</dd></div>
+          </dl>
+        </div>
+        <form id="game-search" class="game-search" role="search" aria-label="Pesquisar no histórico">
+          <fieldset id="search-controls" disabled>
+            <legend class="sr-only">Busca, filtros e ordenação dos jogos</legend>
+            <div class="search-field">
+              <label for="search-title">Buscar jogo</label>
+              <div class="search-input-wrap">
+                <svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><circle cx="10.5" cy="10.5" r="6.5" stroke="currentColor" stroke-width="1.7"/><path d="m15.5 15.5 5 5" stroke="currentColor" stroke-width="1.7"/></svg>
+                <input id="search-title" type="search" placeholder="Digite o nome do jogo…" autocomplete="off" aria-controls="games">
+              </div>
+            </div>
+            <div class="filter-field">
+              <label for="status-filter">Status</label>
+              <select id="status-filter" aria-controls="games">
+                <option value="todos">Todos os jogos</option>
+                <option value="zerado">Zerados</option>
+                <option value="jogando">Jogando</option>
+                <option value="abandonado">Abandonados</option>
+              </select>
+            </div>
+            <div class="filter-field">
+              <label for="sort-games">Ordenar por</label>
+              <select id="sort-games" aria-controls="games">
+                <option value="titulo-az">Nome: A–Z</option>
+                <option value="titulo-za">Nome: Z–A</option>
+                <option value="nota">Maior nota</option>
+                <option value="horas">Mais horas jogadas</option>
+              </select>
+            </div>
+          </fieldset>
+        </form>
+        <div class="results-toolbar">
+          <p id="game-count" class="game-count" role="status" aria-live="polite" aria-atomic="true">Carregando histórico…</p>
+          <button id="clear-filters" class="clear-filters" type="button" hidden>Limpar filtros <span aria-hidden="true">×</span></button>
+        </div>
+        <div id="load-message" class="notice" hidden></div>
+        <div id="no-results" class="no-results" hidden>
+          <h3>Nenhum jogo encontrado.</h3>
+          <p>Tente outro nome ou altere o filtro de status.</p>
+        </div>
+        <div id="games" class="games-grid" aria-busy="true"></div>
+        <noscript>
+          <p class="notice">Ative o JavaScript no seu navegador para ver as reviews e as notas dos jogos.</p>
+        </noscript>
+      </main>
+
+      <footer class="site-footer">
+        <span class="footer-signature">Reviews de Switch</span>
+        <p>Notas de 0 a 10. A média é calculada com jogabilidade, diversão e história.</p>
+        <div class="site-views" role="status" aria-live="polite" aria-atomic="true">
+          <span class="site-views-label">Visualizações do site</span>
+          <strong id="site-views-count">—</strong>
+          <span id="site-views-note">Ainda não ativado</span>
+        </div>
+      </footer>
+    </div>
+    <dialog id="review-dialog" class="review-dialog" aria-labelledby="review-title">
+      <div class="dialog-toolbar">
+        <button id="close-review" class="back-button" type="button"><span aria-hidden="true">←</span> Voltar aos jogos</button>
+        <span class="dialog-platform">Nintendo Switch Lite</span>
+      </div>
+      <div id="review-content" class="dialog-content"></div>
+    </dialog>
+  </body>
+</html>
