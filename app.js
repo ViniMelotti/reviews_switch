@@ -5,15 +5,7 @@
 // desempenho.status: "roda-bem", "quedas-fps" ou "roda-mal".
 // horas e desempenho.obs são opcionais. Use \n\n entre os parágrafos da review.
 // Sem avaliação definida, use notas: null e desempenho: null (ou omita esses campos).
-// Salve os prints em img/ e informe o caminho relativo no campo imagem.
-// Prévia local: python -m http.server 8000, nesta pasta, e http://localhost:8000.
-// No GitHub Pages, coloque estes quatro arquivos na raiz publicada do repositório.
 
-// Contador opcional: crie um site em https://www.goatcounter.com/ e habilite
-// "Allow adding visitor counts on your website" nas configurações do serviço.
-// Cole somente o endereço público abaixo, por exemplo: "https://seusite.goatcounter.com".
-// Deixe vazio para manter desativado. Não é necessário token nem chave de API.
-// A contagem pública pode levar até 4 horas para atualizar; testes locais não contam.
 const GOATCOUNTER_SITE = "https://vinimelotti.goatcounter.com";
 
 const gamesContainer = document.querySelector("#games");
