@@ -11,11 +11,11 @@
   },
   {
     "titulo": "Inside",
-    "status": "jogando",
+    "status": "zerado",
     "imagem": "img/inside.jpeg",
     "imagemAlt": "Print de Inside",
-    "notas": null,
-    "desempenho": null,
+    "notas": { "jogabilidade": 6, "diversao": 6, "historia": 7 } ,
+    "desempenho": { "status": "roda-bem", "obs": "Rodou liso no meu Switch Lite, em modo portátil. Não tive travamentos durante a minha experiência." },
     "review": "Estou jogando Inside e ainda não terminei. Minhas notas e a avaliação final ainda não estão definidas."
   }
 ]
