@@ -18,5 +18,14 @@
     "notas": { "jogabilidade": 6, "diversao": 6, "historia": 7 } ,
     "desempenho": { "status": "roda-bem", "obs": "Rodou liso no meu Switch Lite, em modo portátil. Não tive travamentos durante a minha experiência." },
     "review": "Inside é um jogo independente daqueles que você começa, vai até o fim e ainda termina sem entender exatamente o que aconteceu. O protagonista não fala, e também não há diálogos entre os personagens. Os sons do ambiente ganham destaque e ajudam a construir a atmosfera do jogo. Os controles são bem simples: além de movimentar o personagem, você usa basicamente um botão para pular e outro para segurar ou interagir com objetos. Não há sequer um botão específico para correr. Terminei a história principal em cerca de 4 horas e levei mais 30 minutos para acessar o final secreto, seguindo um guia no YouTube. Precisei dessa ajuda porque não sabia onde estavam os itens que era necessário destruir para liberar esse final. A história segue essa proposta de deixar muita coisa sem explicação. Você começa em uma floresta, sem uma apresentação que explique quem é o personagem ou o que está acontecendo, e termina em uma praia, também sem uma conclusão clara. O jogo deixa essas respostas por conta da interpretação de quem joga: o que aconteceu com aquele mundo, quem são aquelas pessoas e o que tudo aquilo significa."
-  }
+  },
+  {
+  "titulo": "Cuphead",
+  "status": "jogando",
+  "imagem": "img/cuphead.jpg",
+  "imagemAlt": "Print de Cuphead",
+  "notas": null,
+  "desempenho": null,
+  "review": "Estou jogando Cuphead e ainda não terminei. Minhas notas e a avaliação final ainda não estão definidas."
+}
 ]
